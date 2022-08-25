@@ -7,7 +7,7 @@ const routes = require("./routes/routes");
 
 app.use(express.static("./public"));
 
-app.use("/", routes());
+app.use("/", routes);
 
 // add 404 handler
 
